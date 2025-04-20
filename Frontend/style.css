@@ -18,6 +18,11 @@
     min-height: 45vh;
     width: 40vh;
   }
+  .container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
   
   form {
     margin: 2rem 0 1rem 0;
@@ -70,13 +75,23 @@
   }
   
   .msg {
-    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+    margin: 3rem 0 1rem 0;
+    text-align: center;
   }
   
   form button {
+    margin-top: 3rem;
     height: 3rem;
     background-color: #af4d98;
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+  }
+
+  footer p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #df65ba;
   }
